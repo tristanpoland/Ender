@@ -1,0 +1,10 @@
+[package]
+name = "ender"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.0", features = ["derive"] }
+glob = "0.3"
+rayon = "1.7"
+walkdir = "2.3"
